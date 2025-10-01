@@ -1,0 +1,19 @@
+api:
+  football_key: "1df3d58221mshab1989b46146df0p194f53jsne69db977b9bc"
+  odds_api_key: "734f30d0866696cf90d5029ac106cfba"
+  base_url_football: "https://api-football-v1.p.rapidapi.com/v3/"
+models:
+  btts_path: "01_MODELOS/btts/modelo_btts_ensemble.joblib"
+  over_under_path: "01_MODELOS/over_under/modelo_over_under_optimizado.joblib"
+betting:
+  bankroll_initial_cop: 5000000
+  max_daily_bets: 3
+  kelly_fraction: 0.25
+  min_edge: 0.05
+leagues:
+  soccer_epl: "Inglaterra Premier League"
+  soccer_spain_la_liga: "España La Liga"
+  soccer_germany_bundesliga: "Alemania Bundesliga"
+  soccer_portugal_primeira_liga: "Portugal Primeira Liga"
+  soccer_italy_serie_a: "Italia Serie A"
+  soccer_france_ligue_one: "Francia Ligue 1"
